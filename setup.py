@@ -5,7 +5,7 @@ setup(
     name="tap-airtable",
     version="0.1.0",
     description="Singer.io tap for extracting data",
-    author="Stitch",
+    author="ActBlue",
     url="http://singer.io",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_airtable"],
@@ -13,6 +13,7 @@ setup(
         # NB: Pin these to a more specific version for tap reliability
         "singer-python",
         "requests",
+        "pyairtable"
     ],
     entry_points="""
     [console_scripts]
